@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import binance-futures-connector as cm_futures_clien
+import binance-futures-connector as cm_futures_client
 
 cm_futures_client = CMFutures()
 
