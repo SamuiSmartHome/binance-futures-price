@@ -8,8 +8,7 @@ A simple cryptocurrency price app pulling price data from *Binance API*.
 st.header('**Selected Price**')
 
 # Load market data from Binance API
-# df = pd.read_json('https://fapi.binance.com/fapi/v1/ticker/24hr')
-df = pd.read_json('https://fapi.binance.com/fapi/v1/ticker/price')
+df = pd.read_json('https://fapi.binance.com/fapi/v1/ticker/24hr')
 
 # Custom function for rounding values
 def round_value(input_value):
