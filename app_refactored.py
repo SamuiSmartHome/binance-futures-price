@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+from binance.cm_futures import CMFutures
+
+cm_futures_client = CMFutures()
 
 st.markdown('''# **Binance Futures Price App**
 A simple cryptocurrency price app pulling price data from *Binance API*.
